@@ -174,7 +174,6 @@ sudo a2ensite -l
 ```
 ![alt text](<php homepage - Screenshot 2025-08-06 105625.png>)
 
-![alt text](<my sever ip -Screenshot 2025-08-06 105817.png>)
 
 ## Project Structure
 ```
