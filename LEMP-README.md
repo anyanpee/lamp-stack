@@ -34,15 +34,15 @@ sudo systemctl status nginx
 ```
 
 ![Nginx Installation] 
-![alt text](<insalling-Ngnix-Screenshot 2025-08-10 022135.png>)
+![](<insalling-Ngnix-Screenshot 2025-08-10 022135.png>)
 
 ![Nginx Status] 
-![alt text](<Ngnix-status-Screenshot 2025-08-10 022638.png>)
+![](<Ngnix-status-Screenshot 2025-08-10 022638.png>)
 
 Test Nginx in browser: `http://your-server-ip`
 
 ![Nginx Default Page] 
-![alt text](<Ngnix-homepage-Screenshot 2025-08-10 023129.png>)
+![](<Ngnix-homepage-Screenshot 2025-08-10 023129.png>)
 
 
 
@@ -81,9 +81,9 @@ sudo systemctl status php8.1-fpm
 ```
 
 ![PHP Installation] 
-![alt text](<insalling-Ngnix-Screenshot 2025-08-10 022135-1.png>)
+![](<insalling-Ngnix-Screenshot 2025-08-10 022135-1.png>)
 ![PHP Version] 
-![alt text](<php installation  - Screenshot 2025-08-06 091617-1.png>)
+[](<php installation  - Screenshot 2025-08-06 091617-1.png>)
 
 
 ### 5. Configure Nginx for PHP
@@ -123,7 +123,7 @@ server {
 ```
 
 ![Nginx Configuration] 
-![alt text](<Ngnix config-Screenshot 2025-08-10 040331.png>)
+![](<Ngnix config-Screenshot 2025-08-10 040331.png>)
 
 ### 6. Enable Site
 ```bash
@@ -142,7 +142,7 @@ sudo systemctl restart nginx
 
 ![Site Enable]
 ![Nginx Test] 
-![alt text](<test ngnix-Screenshot 2025-08-10 040800.png>)
+![](<test ngnix-Screenshot 2025-08-10 040800.png>)
 
 ### 7. Test Setup
 ```bash
@@ -158,7 +158,7 @@ Test in browser:
 - `http://your-server-ip/info.php` (should show PHP info)
 
 ![PHP Info Page] 
-![alt text](<php homepage-Screenshot 2025-08-10 044307.png>)
+![](<php homepage-Screenshot 2025-08-10 044307.png>)
 
 
 
