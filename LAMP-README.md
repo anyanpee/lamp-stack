@@ -10,7 +10,8 @@ This project demonstrates the setup of a complete LAMP (Linux, Apache, MySQL, PH
 
 First create an Ubuntu instance from EC2 on Aws and Ssh into the instance 
 
-![alt text](<ubuntu instance Screenshot 2025-08-06 075136-1.png>)
+![alt text](screenshots/ubuntu-instance-Screenshot-2025-08-06-075136-1.png)
+
 
 
 ## Installation Steps
@@ -21,9 +22,11 @@ First create an Ubuntu instance from EC2 on Aws and Ssh into the instance
 sudo apt update
 sudo apt install mysql-server
 ```
-![alt text](<mysql server installation - Screenshot 2025-08-06 084433.png>)
+![alt text](screenshots/ubuntu-instance-Screenshot-2025-08-06-075136-1.png)
 
-![alt text](<mysql status - Screenshot 2025-08-06 084759.png>)
+
+![alt text](screenshots/ubuntu-instance-Screenshot-2025-08-06-075136-1.png)
+
 
 ```bash
 # Secure MySQL installation
@@ -47,7 +50,8 @@ sudo apt install php php-mysql php-curl php-json php-mbstring
 php -v
 php -m
 ```
-![alt text](<php installation  - Screenshot 2025-08-06 091617.png>)
+![alt text](screenshots/ubuntu-instance-Screenshot-2025-08-06-075136-1.png)
+
 
 
 ### 3. Apache Web Server Setup
@@ -58,9 +62,9 @@ sudo systemctl status apache2
 # If not installed:
 sudo apt install apache2
 ```
-![alt text](<apache 2 install - Screenshot 2025-08-06 081845.png>)
+![alt text](screenshots/ubuntu-instance-Screenshot-2025-08-06-075136-1.png)
 
-![alt text](<apache2 homepage - Screenshot 2025-08-06 083201.png>)
+![alt text](screenshots/ubuntu-instance-Screenshot-2025-08-06-075136-1.png)
 
 ### 4. Project Directory Setup
 ```bash
@@ -86,7 +90,7 @@ Add the following content:
 phpinfo();
 ?>
 ```
-![alt text](<info php - Screenshot 2025-08-06 101353.png>)
+![alt text](screenshots/ubuntu-instance-Screenshot-2025-08-06-075136-1.png)
 
 ### 6. Virtual Host Configuration
 ```bash
@@ -172,8 +176,7 @@ sudo systemctl status mysql
 # List enabled sites
 sudo a2ensite -l
 ```
-![alt text](<php homepage - Screenshot 2025-08-06 105625.png>)
-
+![alt text](screenshots/ubuntu-instance-Screenshot-2025-08-06-075136-1.png)
 
 ## Project Structure
 ```

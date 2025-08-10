@@ -10,7 +10,7 @@ This project demonstrates the setup of a complete LEMP (Linux, Nginx, MySQL, PHP
 
 First create an Ubuntu instance 
 ![Ubuntu Instance] 
-![alt text](<Lemp-stack- Ec2-Screenshot 2025-08-10 020845-1.png>)
+![alt text](screenshots/Lemp-stack-Ec2-Screenshot-2025-08-10-020845-1.png)
 
 ## Installation Steps
 
@@ -34,15 +34,15 @@ sudo systemctl status nginx
 ```
 
 ![Nginx Installation] 
-![alt text](<insalling-Ngnix-Screenshot 2025-08-10 022135.png>)
+![alt text](screenshots/insalling-Ngnix-Screenshot-2025-08-10-022135.png)
 
 ![Nginx Status] 
-![alt text](<Ngnix-status-Screenshot 2025-08-10 022638.png>)
+![alt text](screenshots/Ngnix-status-Screenshot-2025-08-10-022638.png)
 
 Test Nginx in browser: `http://your-server-ip`
 
 ![Nginx Default Page] 
-![alt text](<Ngnix-homepage-Screenshot 2025-08-10 023129.png>)
+![alt text](screenshots/Ngnix-homepage-Screenshot-2025-08-10-023129.png)
 
 
 
@@ -55,7 +55,7 @@ sudo apt install mysql-server -y
 sudo mysql_secure_installation
 ```
 
-![MySQL Installation](<mysql server installation - Screenshot 2025-08-06 084433-1.png>)
+![MySQL Installation](screenshots/mysql-server-installation-Screenshot-2025-08-06-084433-1.png)
 
 ```bash
 # Login and set root password
@@ -65,7 +65,7 @@ FLUSH PRIVILEGES;
 EXIT;
 ```
 
-![MySQL Status](<mysql status - Screenshot 2025-08-06 084759.png>)
+![MySQL Status](screenshots/mysql-status-Screenshot-2025-08-06-084759.png)
 
 
 ### 4. Install PHP
@@ -83,7 +83,7 @@ sudo systemctl status php8.1-fpm
 ![PHP Installation] 
 ![alt text](<insalling-Ngnix-Screenshot 2025-08-10 022135-1.png>)
 ![PHP Version] 
-![alt text](<php installation  - Screenshot 2025-08-06 091617-1.png>)
+![alt text](screenshots/php-installation-Screenshot-2025-08-06-091617-1.png)
 
 
 ### 5. Configure Nginx for PHP
@@ -123,7 +123,7 @@ server {
 ```
 
 ![Nginx Configuration] 
-![alt text](<Ngnix config-Screenshot 2025-08-10 040331.png>)
+![alt text](screenshots/Ngnix-config-Screenshot-2025-08-10-040331.png)
 
 ### 6. Enable Site
 ```bash
@@ -142,7 +142,7 @@ sudo systemctl restart nginx
 
 ![Site Enable]
 ![Nginx Test] 
-![alt text](<test ngnix-Screenshot 2025-08-10 040800.png>)
+![alt text](screenshots/test-ngnix-Screenshot-2025-08-10-040800.png)
 
 ### 7. Test Setup
 ```bash
@@ -158,7 +158,7 @@ Test in browser:
 - `http://your-server-ip/info.php` (should show PHP info)
 
 ![PHP Info Page] 
-![alt text](<php homepage-Screenshot 2025-08-10 044307.png>)
+![alt text](screenshots/php-homepage-Screenshot-2025-08-10-044307.png)
 
 
 
